@@ -1,0 +1,17 @@
+@import './card';
+@import './variables';
+@import './reset';
+
+body {
+    padding: 16px;
+    font-family: $font-family;
+}
+
+main {
+    background-color: $color-off-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh);
+}
